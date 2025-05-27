@@ -1,89 +1,66 @@
-# HR Attrition Analysis
+# Data Analyst Portfolio
 
-This project analyzes employee attrition using HR data, with visual insights provided through an interactive Power BI dashboard. The analysis helps identify attrition trends across departments, age groups, and education levels.
-
----
-
-## Tools Used
-
-- **Microsoft Power BI**  
-  For building interactive dashboards and visualizing attrition trends and patterns.
-
-- **Microsoft Excel**  
-  Used for initial data cleaning, preparation, and exploration.
-
-- **Bash Scripting**  
-  For summarizing and reporting key findings in a command-line friendly format.
-
-- **CSV Data Files**  
-  The raw HR data is stored in CSV format for easy manipulation and analysis.
+Welcome to my Data Analyst portfolio! Below are summaries of my three most recent data analysis projects, each demonstrating my ability to work with real-world data, extract actionable insights, and present findings using industry-standard tools.
 
 ---
 
-## Dashboard Overview
+## 1. Data Professional Survey Analysis
 
-The main findings and visuals are presented in the [Power BI dashboard PDF](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/62445056/0c54cb07-4c8b-4551-982d-e7761ed8eb11/hr_analysis_powerbi_report.pdf), which includes:
+### **Description**
+This project analyzes global survey data from 630 data professionals to uncover trends in demographics, job roles, salaries, skills, and satisfaction. The analysis was performed using Power BI for dashboarding and Excel for data cleaning.
 
-- **Key Metrics:**  
-  - Total Employees: 1,470  
-  - Active Employees: 1,233  
-  - Attrition (Ex-Employees): 237  
-  - Average Age: 37
+### **Key Findings**
+- **Demographics:** Average age is 29.87 years. Respondents are primarily from the US, India, UK, and Canada.
+- **Job Titles:** Most common roles are Data Scientist, Data Engineer, Data Analyst, Data Architect, and Database Developer.
+- **Salaries:** Significant variation by job title; average salaries are visualized in the dashboard.
+- **Programming Skills:** Python is the most popular language, followed by R and others.
+- **Satisfaction:** Work-life balance generally rated higher than salary satisfaction.
+- **Gender Pay Gap:** The report visualizes differences in average salary by gender.
 
-- **Attrition by Department:**  
-  - R&D: 133 (56.12%)  
-  - Sales: 92 (38.82%)  
-  - HR: 12 (5.06%)
-
-- **Attrition by Age Band:**  
-  - 25–34: 454  
-  - 35–44: 220  
-  - 45–54: 112  
-  - Under 25: 38  
-  - Over 55: 51
-
-- **Job Satisfaction by Age Band:**  
-  - 25–34: 554  
-  - 35–44: 505  
-  - 45–54: 245  
-  - Under 25: 97  
-  - Over 55: 69
-
-- **Education Levels:**  
-  - Associates Degree  
-  - Bachelor’s Degree  
-  - Doctoral Degree  
-  - High School  
-  - Master’s Degree
-
-- **Interactive Filters:**  
-  The dashboard allows filtering by education, department, and age to explore specific groups in more detail.
+### **Summary**
+This survey analysis provides a comprehensive overview of the data profession landscape, highlighting popular roles, skillsets, and satisfaction drivers. The project demonstrates my ability to handle survey data, perform demographic and salary analysis, and communicate insights visually.
 
 ---
 
-## Data Sources
+## 2. Walmart Sales Analysis
 
-- [hrdata.csv](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/62445056/c2859a1a-9bff-40e7-bca4-935a52180f26/hrdata.csv): Raw HR dataset including employee demographics, job roles, education, and attrition status.
-- [hr_analysis_powerbi_report.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/62445056/0c54cb07-4c8b-4551-982d-e7761ed8eb11/hr_analysis_powerbi_report.pdf): Power BI dashboard with summary charts and interactive visuals.
+### **Description**
+A deep-dive into Walmart’s sales transactions for the year 2019. The project involved cleaning and analyzing 1,000 rows of sales data in Excel and creating an executive dashboard summarizing key business metrics.
 
----
+### **Key Findings**
+- **Total Orders:** 1,000 | **Total Revenue:** $322,970 | **Total Quantity Sold:** 5,510 units
+- **Top Product Lines:** Fashion Accessories, Electronic Accessories, and Sports & Travel lead in revenue.
+- **Branch Performance:** Major cities like Chicago, Dallas, and New York are top contributors.
+- **Payment Methods:** Sales are distributed among cash, credit card, and e-wallet payments.
+- **Customer Ratings:** Average rating is 6.97, indicating moderate satisfaction.
+- **Monthly Trends:** Sales are steady throughout the year with no extreme peaks.
 
-## Summary of Findings
-
-- **Attrition is highest in the R&D and Sales departments, especially among employees aged 25–44.**
-- **All education levels experience attrition, indicating it is a multifactorial issue.**
-- **Job satisfaction varies by age band but is not the sole predictor of attrition.**
-
----
-
-## How to Use
-
-1. Open the Power BI dashboard PDF for interactive visual insights.
-2. Use the CSV data for your own analysis or to extend the findings.
-3. Refer to the Bash script (see `/scripts/` if available) for quick command-line summaries.
+### **Summary**
+This project demonstrates my proficiency in Excel for business analytics, including data cleaning, pivot tables, and dashboard creation. It showcases my ability to extract actionable insights from transactional data and communicate them effectively.
 
 ---
 
-## License
+## 3. HR Attrition Analysis
 
-This project is intended for educational and analytical purposes.
+### **Description**
+An HR analytics project focused on employee attrition. Using a dataset of 1,470 employees, I analyzed patterns in attrition across departments, age bands, and education levels using Power BI and Excel.
+
+### **Key Findings**
+- **Attrition Rate:** 237 employees left, with the highest attrition in R&D and Sales departments.
+- **Demographics:** Employees aged 25–44 are most likely to leave. Attrition occurs across all education levels.
+- **Job Satisfaction:** Varies by age band but is not the sole predictor of attrition.
+- **Multifactorial Causes:** No single factor explains attrition; it is influenced by multiple variables.
+
+### **Summary**
+This analysis highlights the importance of data-driven HR strategies. It demonstrates my skills in workforce analytics, dashboarding, and presenting findings that can inform retention strategies.
+
+---
+
+## 📊 Tools & Skills Demonstrated
+
+- **Data Cleaning & Preparation:** Microsoft Excel
+- **Data Visualization & Dashboarding:** Power BI, Excel Charts
+- **Statistical Analysis & Insights:** Demographic, salary, sales, and attrition analytics
+- **Business Communication:** Executive summaries, actionable recommendations
+
+---
